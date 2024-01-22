@@ -1,0 +1,24 @@
+
+
+header{
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+
+  /* Custom CSS for changing hover color */
+  .nav-underline .nav-item:hover .nav-link {
+    border-bottom: 2px solid white; /* Change this to the desired color */
+    color: white;
+  }
+
+  .nav-link{
+    color: aqua;
+  }
+
+  #logo{
+    font-family:  'Cursive', 'Script', cursive;
+    color: aqua;
+    text-align: center;
+    align-self: center;
+  }
+}

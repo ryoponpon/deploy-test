@@ -1,8 +1,19 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  /* Custom CSS for changing hover color */
 }
-
-a {
-  color: #00B7FF;
+header .nav-underline .nav-item:hover .nav-link {
+  border-bottom: 2px solid white; /* Change this to the desired color */
+  color: white;
 }
+header .nav-link {
+  color: aqua;
+}
+header #logo {
+  font-family: "Cursive", "Script", cursive;
+  color: aqua;
+  text-align: center;
+  align-self: center;
+}/*# sourceMappingURL=style.css.map */
