@@ -1,5 +1,5 @@
 
-
+/* ヘッダー */
 header{
   padding: 1%;
   display: flex;
@@ -13,6 +13,7 @@ header{
 
   .nav-link{
     color: aqua;
+    font-size: larger;
   }
 
   #logo{
@@ -20,16 +21,40 @@ header{
     color: aqua;
     text-align: center;
     align-self: center;
+    text-decoration: none;
   }
-}
+}/* ヘッダー */
 
-#home{
+#home{ /* トップ背景 */
   background-image: url("/images/bg-1.jpg");
   min-height: 100vh;
-}
+}/* トップ背景 */
 
-.top-bg{
+.top-bg{/* 背景詳細設定 */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-}
+}/* 背景詳細設定 */
+
+.top-content{/* トップ中央の文字 */
+  text-align: center;
+  margin-top: 10%;
+  color: aqua;
+
+  .top-message{
+    font-size: 5rem;
+    font-family: impact, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+
+  .sub-message{
+    font-size: 1.5rem;
+    margin: 10px 0 42px;
+    font-family: impact, Helvetica, sans-serif;
+  }
+
+  .btn:hover{
+    color: #fff;
+  }
+}/* トップ中央の文字 */

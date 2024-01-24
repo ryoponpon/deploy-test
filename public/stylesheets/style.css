@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* ヘッダー */
 header {
   padding: 1%;
   display: flex;
@@ -10,21 +12,44 @@ header .nav-underline .nav-item:hover .nav-link {
 }
 header .nav-link {
   color: aqua;
+  font-size: larger;
 }
 header #logo {
   font-family: "Cursive", "Script", cursive;
   color: aqua;
   text-align: center;
   align-self: center;
+  text-decoration: none;
 }
 
-#home {
+/* ヘッダー */
+#home { /* トップ背景 */
   background-image: url("/images/bg-1.jpg");
   min-height: 100vh;
-}
-
-.top-bg {
+} /* トップ背景 */
+.top-bg { /* 背景詳細設定 */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-}/*# sourceMappingURL=style.css.map */
+} /* 背景詳細設定 */
+.top-content { /* トップ中央の文字 */
+  text-align: center;
+  margin-top: 10%;
+  color: aqua;
+}
+.top-content .top-message {
+  font-size: 5rem;
+  font-family: impact, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.top-content .sub-message {
+  font-size: 1.5rem;
+  margin: 10px 0 42px;
+  font-family: impact, Helvetica, sans-serif;
+}
+.top-content .btn:hover {
+  color: #fff;
+}
+
+/* トップ中央の文字 *//*# sourceMappingURL=style.css.map */
